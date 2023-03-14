@@ -1,8 +1,13 @@
-import React from 'react'
+import { useSelector } from 'react-redux'
+import { selectDisplay } from '../redux/displayArticleSlice'
 
 const Details = () => {
+  const displayArticle = useSelector(selectDisplay)
+  console.log(displayArticle)
   return (
-    <div>Details</div>
+    <div>Details
+      <p>{displayArticle.title}</p>
+    </div>
   )
 }
 
