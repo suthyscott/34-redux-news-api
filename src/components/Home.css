@@ -1,0 +1,9 @@
+.article-container {
+    width: 400px;
+    height: 400px;
+}
+
+.article-container img {
+    width: 60%;
+    height: 60%
+}
