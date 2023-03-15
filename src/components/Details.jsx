@@ -7,6 +7,8 @@ const Details = () => {
   return (
     <div>Details
       <p>{displayArticle.title}</p>
+      <img src={displayArticle.urlToImage}/>
+      <a href={displayArticle.url} target="_blank">See full article</a>
     </div>
   )
 }
