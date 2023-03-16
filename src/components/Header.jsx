@@ -20,7 +20,7 @@ const Header = () => {
   }
 
   return (
-    <div>
+    <div className='flex justify-between'>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/details'>Details</NavLink>
 
